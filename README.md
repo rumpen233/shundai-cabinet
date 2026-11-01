@@ -1,4 +1,7 @@
-# 首相官邸503 — 春黛内阁 官方网站
+﻿# 首相官邸503 — 春黛内阁 官方网站
+
+**在线站点：https://rumpen233.github.io/shundai-cabinet/**
+**仓库：https://github.com/rumpen233/shundai-cabinet**
 
 架空作品《春黛内阁》的设定网站。纯静态 HTML / CSS / JavaScript，无构建步骤、无外部依赖，
 双击 `index.html` 即可在浏览器中打开（也可以放到任意静态服务器上）。
@@ -10,6 +13,16 @@
 
 - 直接双击 `index.html`。
 - 或在目录内启动任意静态服务器，例如 `python -m http.server 8000`，再访问 `http://localhost:8000/`。
+
+## 部署到 GitHub Pages
+
+仓库已按 Pages 的「Deploy from a branch」方式配置：`main` 分支根目录直接发布，
+根目录的 `.nojekyll` 让 Pages 原样输出静态文件。
+
+```bash
+git add -A && git commit -m "update" && git push origin main
+```
+
 
 ## 语言
 
