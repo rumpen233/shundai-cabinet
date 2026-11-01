@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-Hans">
+  <title>首相官邸503 — 新闻发布</title>
+  <subtitle>日本国内阁总理大臣官邸</subtitle>
+  <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/news.html"/>
+  <link rel="self" type="application/atom+xml" href="https://www.kantei.go.jp/503/assets/news.xml"/>
+  <id>https://www.kantei.go.jp/503/news.xml</id>
+  <updated>2026-12-16T18:00:00+09:00</updated>
+  <author><name>内阁官房 广报室</name></author>
+  <entry>
+    <title>大阪都施行一个月——迁入人口12万，总部迁移企业47家</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=osaka-month"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=osaka-month</id>
+    <updated>2026-12-16T18:00:00+09:00</updated>
+    <published>2026-12-16T18:00:00+09:00</published>
+    <category term="osaka" label="大阪都"/>
+    <summary type="text">《大阪都设置法》施行满一个月。自东京迁往大阪及周边的人口约12万人，迁移总部的企业47家。</summary>
+  </entry>
+  <entry>
+    <title>内阁支持率58.4%——大阪都施行后上升1.2个百分点</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=support-dec"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=support-dec</id>
+    <updated>2026-12-01T18:00:00+09:00</updated>
+    <published>2026-12-01T18:00:00+09:00</published>
+    <category term="toukei" label="统计"/>
+    <summary type="text">官邸广报室12月1日发布的内阁支持率为58.4%，较上月上升1.2个百分点。</summary>
+  </entry>
+  <entry>
+    <title>《大阪都设置法》施行——日本进入“双都时代”</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=osaka-law"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=osaka-law</id>
+    <updated>2026-11-16T18:00:00+09:00</updated>
+    <published>2026-11-16T18:00:00+09:00</published>
+    <category term="osaka" label="大阪都"/>
+    <summary type="text">11月16日，《大阪都设置法》施行。大阪府正式改为大阪都，大阪市长改称大阪都知事，行政区划不变。</summary>
+  </entry>
+  <entry>
+    <title>国会通过《大阪都设置案》——众议院289票赞成</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=osaka-bill"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=osaka-bill</id>
+    <updated>2026-11-08T18:00:00+09:00</updated>
+    <published>2026-11-08T18:00:00+09:00</published>
+    <category term="osaka" label="大阪都"/>
+    <summary type="text">11月8日，众议院以289票赞成、142票反对、21票弃权通过《大阪都设置案》。参议院于同日通过。</summary>
+  </entry>
+  <entry>
+    <title>光棒打师认证第二次申请开始——首日18万7,000件</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=kobo-cert2"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=kobo-cert2</id>
+    <updated>2026-10-28T18:00:00+09:00</updated>
+    <published>2026-10-28T18:00:00+09:00</published>
+    <category term="kobo" label="光棒省"/>
+    <summary type="text">光棒省10月28日开始受理第二次认证申请。首日申请18万7,000件，系统紧急扩容。</summary>
+  </entry>
+  <entry>
+    <title>大阪都公投通过——赞成55.6%</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=osaka-referendum"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=osaka-referendum</id>
+    <updated>2026-10-25T18:00:00+09:00</updated>
+    <published>2026-10-25T18:00:00+09:00</published>
+    <category term="osaka" label="大阪都"/>
+    <summary type="text">10月25日投开票。赞成2,367,412票、反对1,892,308票，赞成率55.6%，投票率61.4%。</summary>
+  </entry>
+  <entry>
+    <title>第一届亚洲光棒（ヲタ芸）运动会闭幕——14个国家和地区、3.2万人到场</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=alg-close"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=alg-close</id>
+    <updated>2026-09-18T18:00:00+09:00</updated>
+    <published>2026-09-18T18:00:00+09:00</published>
+    <category term="asia" label="亚棒会"/>
+    <summary type="text">9月18日，第一届大会在大阪城公园闭幕。综合冠军为日本选手山田太郎，奖品为纯金光棒。</summary>
+  </entry>
+  <entry>
+    <title>光棒省提出2027年度概算要求712亿日元</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=budget-2027"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=budget-2027</id>
+    <updated>2026-08-26T18:00:00+09:00</updated>
+    <published>2026-08-26T18:00:00+09:00</published>
+    <category term="kobo" label="光棒省"/>
+    <summary type="text">光棒省于8月26日提出2027年度概算要求712亿日元，较本年度增加100亿日元。</summary>
+  </entry>
+  <entry>
+    <title>第二届光棒节——41万人到场</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=festival-2026"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=festival-2026</id>
+    <updated>2026-08-10T18:00:00+09:00</updated>
+    <published>2026-08-10T18:00:00+09:00</published>
+    <category term="kobo" label="光棒省"/>
+    <summary type="text">8月10日，第二届光棒节在大阪城公园与中之岛公园举行，来场者41万人。</summary>
+  </entry>
+  <entry>
+    <title>恰罗餐厅·黛 香港店开业一周年——日均420份</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=shokudo-hk"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=shokudo-hk</id>
+    <updated>2026-07-01T18:00:00+09:00</updated>
+    <published>2026-07-01T18:00:00+09:00</published>
+    <category term="shokudo" label="恰罗餐厅"/>
+    <summary type="text">海外1号店香港铜锣湾店迎来开业一周年。招牌XO酱带子肠粉售价88港币。</summary>
+  </entry>
+  <entry>
+    <title>“光棒好好光棒”一周年公演——大阪城Hall</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=wotagood-anniv"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=wotagood-anniv</id>
+    <updated>2026-06-15T18:00:00+09:00</updated>
+    <published>2026-06-15T18:00:00+09:00</published>
+    <category term="kantei" label="官邸"/>
+    <summary type="text">光棒省官方乐队于6月15日在大阪城Hall举行一周年公演，8,000席满员。</summary>
+  </entry>
+  <entry>
+    <title>魔爪联名罐第二弹——高级认证限定</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=monster-2"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=monster-2</id>
+    <updated>2026-05-20T18:00:00+09:00</updated>
+    <published>2026-05-20T18:00:00+09:00</published>
+    <category term="kobo" label="光棒省"/>
+    <summary type="text">光棒省与魔爪日本分公司公布联名罐第二弹，5月20日起向高级认证打师发放。</summary>
+  </entry>
+</feed>

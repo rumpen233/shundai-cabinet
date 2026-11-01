@@ -1,0 +1,9 @@
+﻿# 系统与编辑器杂项
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+
+# 本地预览/截图
+shots/
+_*.html

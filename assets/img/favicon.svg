@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="首相官邸503">
+  <rect width="64" height="64" rx="6" fill="#fcfaf5"/>
+  <circle cx="32" cy="30" r="13" fill="#a51d1f"/>
+  <path d="M8 42C15 35 20 44 27 40c7-4 10 3 17-1 5-3 8 1 12-1" fill="none" stroke="#17130f" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M10 51c8-5 13 2 20-1 6-3 10 2 16-1" fill="none" stroke="#a51d1f" stroke-width="2.4" stroke-linecap="round" opacity=".9"/>
+</svg>
