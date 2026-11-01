@@ -562,8 +562,9 @@
   /* ---------------- boot ---------------- */
   function renderAll() {
     buildData();
+    /* only the standard lang attribute: putting data-lang on <html> made every
+       delegated click resolve to the root element */
     document.documentElement.setAttribute("lang", D.lang.html);
-    document.documentElement.setAttribute("data-lang", L);
     renderChrome();
     var key = document.body.getAttribute("data-page") || "home";
     if (key === "news") renderNews();
