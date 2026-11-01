@@ -160,6 +160,11 @@
         '<span class="fic">' + esc(m.disclaimer) + "</span>" +
       "</div></div>";
 
+    /* build id, so a support question can tell old cache from new code */
+    var bm = document.querySelector('meta[name="build"]');
+    var fb = q(".foot-bottom");
+    if (bm && fb) fb.title = "build " + bm.getAttribute("content");
+
     document.title = document.title.replace(/^.*?｜/, "");
     var sk = q("#skip"); if (sk) sk.textContent = u.skip;
     var tt = q("#totop");

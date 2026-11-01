@@ -105,7 +105,14 @@ kantei503/
 node scripts/validate_site.js .     # 渲染器、链接、锚点、图片、类别、导航
 node scripts/compare_i18n.js .      # 三种语言的结构是否完全一致
 node scripts/gen_feed.js .          # 改过新闻后重新生成 assets/news.xml
+node scripts/stamp.js .             # 改了 css/js 之后，刷新 HTML 里的 ?v= 版本号
 ```
+
+**改过 `assets/css` 或 `assets/js` 之后一定要跑 `stamp.js`。** GitHub Pages 给
+`/assets/*` 的缓存是 10 分钟，版本号不变的话，访客（包括你自己）刷新页面拿到的还是旧脚本。
+`stamp.js` 用 CSS/JS 的内容哈希生成版本号，只有内容变了版本才变，同时会写入
+`<meta name="build">`；页脚那行小字的 `title` 属性里也能看到 build 号，遇到「点了没反应」
+之类的问题可以先对一下版本。
 
 `validate_site.js` 会检查：每个块类型是否有对应渲染器、所有站内链接与锚点是否存在、
 图片是否存在、新闻 id 与分类是否齐全、导航与页脚链接是否指向真实页面。
