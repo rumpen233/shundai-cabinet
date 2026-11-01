@@ -5,8 +5,17 @@
   <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/news.html"/>
   <link rel="self" type="application/atom+xml" href="https://www.kantei.go.jp/503/assets/news.xml"/>
   <id>https://www.kantei.go.jp/503/news.xml</id>
-  <updated>2026-12-16T18:00:00+09:00</updated>
+  <updated>2026-12-18T18:00:00+09:00</updated>
   <author><name>内阁官房 广报室</name></author>
+  <entry>
+    <title>《皇室典范特例法》施行——咩宫妃那就任特例天皇</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=tenno-1218"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=tenno-1218</id>
+    <updated>2026-12-18T18:00:00+09:00</updated>
+    <published>2026-12-18T18:00:00+09:00</published>
+    <category term="kantei" label="官邸"/>
+    <summary type="text">12月18日，《皇室典范特例法》施行。声优咩宫妃那就任特例天皇。</summary>
+  </entry>
   <entry>
     <title>大阪都施行一个月——迁入人口12万，总部迁移企业47家</title>
     <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=osaka-month"/>
@@ -62,7 +71,7 @@
     <summary type="text">10月25日投开票。赞成2,367,412票、反对1,892,308票，赞成率55.6%，投票率61.4%。</summary>
   </entry>
   <entry>
-    <title>第一届亚洲光棒（ヲタ芸）运动会闭幕——14个国家和地区、3.2万人到场</title>
+    <title>第一届亚洲光棒（ヲタ芸）运动会闭幕——26个国家和地区、3.2万人到场</title>
     <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=alg-close"/>
     <id>https://www.kantei.go.jp/503/article.html?id=alg-close</id>
     <updated>2026-09-18T18:00:00+09:00</updated>
@@ -80,6 +89,15 @@
     <summary type="text">光棒省于8月26日提出2027年度概算要求712亿日元，较本年度增加100亿日元。</summary>
   </entry>
   <entry>
+    <title>新党“光棒党”成立——首日入党申请23,412人</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=wtp-found"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=wtp-found</id>
+    <updated>2026-08-21T18:00:00+09:00</updated>
+    <published>2026-08-21T18:00:00+09:00</published>
+    <category term="kantei" label="官邸"/>
+    <summary type="text">8月21日，首相退出自由民主党后组建的光棒党召开成立大会，英文名 WOTAGEI Party（WTP），总裁为春黛无知觉。</summary>
+  </entry>
+  <entry>
     <title>第二届光棒节——41万人到场</title>
     <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=festival-2026"/>
     <id>https://www.kantei.go.jp/503/article.html?id=festival-2026</id>
@@ -87,6 +105,15 @@
     <published>2026-08-10T18:00:00+09:00</published>
     <category term="kobo" label="光棒省"/>
     <summary type="text">8月10日，第二届光棒节在大阪城公园与中之岛公园举行，来场者41万人。</summary>
+  </entry>
+  <entry>
+    <title>首都圈实施紧急状态——自卫队政变未遂，六人被捕</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=coup-0714"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=coup-0714</id>
+    <updated>2026-07-14T18:00:00+09:00</updated>
+    <published>2026-07-14T18:00:00+09:00</published>
+    <category term="kantei" label="官邸"/>
+    <summary type="text">7月14日，政府宣布首都圈进入紧急状态，警视厅与防卫省联合破获一起政变计划，涉案六人被拘。</summary>
   </entry>
   <entry>
     <title>恰罗餐厅·黛 香港店开业一周年——日均420份</title>
@@ -114,5 +141,14 @@
     <published>2026-05-20T18:00:00+09:00</published>
     <category term="kobo" label="光棒省"/>
     <summary type="text">光棒省与魔爪日本分公司公布联名罐第二弹，5月20日起向高级认证打师发放。</summary>
+  </entry>
+  <entry>
+    <title>武道馆对邦——“春黛首相的光棒表演”升至世界趋势第二位</title>
+    <link rel="alternate" type="text/html" href="https://www.kantei.go.jp/503/article.html?id=budokan-2025"/>
+    <id>https://www.kantei.go.jp/503/article.html?id=budokan-2025</id>
+    <updated>2025-06-15T18:00:00+09:00</updated>
+    <published>2025-06-15T18:00:00+09:00</published>
+    <category term="kantei" label="官邸"/>
+    <summary type="text">6月15日，光棒省官方乐队“光棒好好光棒”与 Hello, Happy World! 在东京武道馆举行对邦公演，1.2万席满员。</summary>
   </entry>
 </feed>

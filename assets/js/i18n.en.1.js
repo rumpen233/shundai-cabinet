@@ -1,4 +1,4 @@
-﻿/* Prime Minister's Office 503 — content: English part 1/2 */
+/* Prime Minister's Office 503 — content: English part 1/2 */
 window.I18N = window.I18N || {};
 (function () {
   var d = (window.I18N.en = window.I18N.en || {});
@@ -79,6 +79,7 @@ window.I18N = window.I18N || {};
         ],
         caption: "Office emblem, adopted in Reiwa 7" },
       { t: "notices", label: "Notices", items: [
+        { date: "18 Dec", text: "Imperial House Act special measures in force — Hina Memiya becomes extraordinary Emperor", href: "article.html?id=tenno-1218" },
         { date: "16 Dec", text: "One month of Osaka Metropolis: 120,000 arrivals, 47 headquarters relocated", href: "article.html?id=osaka-month" },
         { date: "16 Nov", text: "The Osaka Metropolis Establishment Act comes into force", href: "policies.html#osaka" },
         { date: "28 Oct", text: "Second round of light-stick performer certification opens", href: "article.html?id=kobo-cert2" }
@@ -98,7 +99,7 @@ window.I18N = window.I18N || {};
           { title: "Charo Diner · Dai, the national canteen", tag: "Food culture", text: "A national canteen built on cheung fun: 11 branches in Japan and one in Hong Kong. The cheese cheung fun sells 300 portions a day.", href: "policies.html#shokudo", foot: "See the branches" },
           { title: "Moving the capital's functions", tag: "Regional renewal", text: "In the first month of the Act, some 120,000 people moved from Tokyo to Osaka and its surroundings. Technology and games companies followed.", href: "policies.html#hito", foot: "See the figures" },
           { title: "Energy drinks for certified performers", tag: "Health and labour", text: "Paid for in full by a company: free energy drinks for certified performers. Under-16s need written consent from a guardian.", href: "policies.html#energy", foot: "About the scheme" },
-          { title: "The Asia Wotagei Sports Festival", tag: "International exchange", text: "The first Games were held in Osaka Castle Park: 14 countries and regions, 32,000 spectators. The second will be in 2028.", href: "ministry.html#alg", foot: "About the Games" }
+          { title: "The Asia Wotagei Sports Festival", tag: "International exchange", text: "The first Games were held in Osaka Castle Park: 26 countries and regions, 32,000 spectators. The second will be in 2028.", href: "ministry.html#alg", foot: "About the Games" }
         ] }] },
       { t: "sec", cls: "sec--paper2", over: "Data", title: "The Cabinet in numbers",
         blocks: [
@@ -136,7 +137,7 @@ window.I18N = window.I18N || {};
 
   /* ---------------- about ---------------- */
   d.pages.about = {
-    title: "About the Office", h1: "Office 503", lead: "The Prime Minister's Office 503 stands in Ōtemae, Chūō-ku, Osaka: a twelve-storey building that houses the Prime Minister's office, the headquarters of the Light-Stick Party and the room in which the Cabinet meets.",
+    title: "About the Office", h1: "Office 503", lead: "The Prime Minister's Office 503 stands in Ōtemae, Chūō-ku, Osaka: a twelve-storey building that houses the Prime Minister's office, the headquarters of the Wotagei Party and the room in which the Cabinet meets.",
     crumbs: [{ label: "About the Office", href: "about.html" }], updated: "18 December 2026", toc: true,
     blocks: [
       { t: "p", text: "In June of Reiwa 6, the 104th Prime Minister, Muchikaku Shundai, set up his office in Room 503 of a student dormitory at Osaka University of Law, Politics and Economics. In July the room was given a plaque: Office of the Prime Minister (provisional), Room 503. The old residence in Nagatachō became a museum, open free of charge, saving close to Y1 billion a year in maintenance." },
@@ -149,7 +150,7 @@ window.I18N = window.I18N || {};
         ["Size", "12 floors above ground, one below"],
         ["Floor area", "18,640 m²"],
         ["Principal facilities", "Prime Minister's office (11th floor), Cabinet room (10th), briefing room (3rd), crisis management centre (basement)"],
-        ["Tenants", "Light-Stick Party headquarters (4th–6th floors), Cabinet Secretariat (7th–9th), light-stick ministry liaison office (2nd)"],
+        ["Tenants", "Wotagei Party headquarters (4th–6th floors), Cabinet Secretariat (7th–9th), light-stick ministry liaison office (2nd)"],
         ["Roof", "Light tower, 12 m, lit on public holidays and on sitting days of the Diet"]
       ] },
       { t: "note", title: "On the name", text: "The formal name is the Office of the Prime Minister. Because of the building code and the plaque, the Government and the press generally say “the Office at 503” or “Prime Minister's Office 503”. “The 503 building” means the structure itself. Since Reiwa 7, official documents have used a single form: Prime Minister's Office 503." },
@@ -162,6 +163,8 @@ window.I18N = window.I18N || {};
         { date: "March 2025", title: "The 503 building opens", text: "The Office moves to its present address in Chūō-ku, Osaka. The brass plaque is unveiled." },
         { date: "June 2025", title: "Concert at the Budōkan", text: "The ministry's official band, WotaGood, plays a double bill with Hello Happy World to a full house of 12,000." },
         { date: "August 2025", title: "The first Light-Stick Festival", text: "10 August is observed as a public holiday for the first time." },
+        { date: "July 2026", title: "Attempted Self-Defence Force coup", text: "A state of emergency was declared in the capital region; six people were detained." },
+        { date: "August 2026", title: "Wotagei Party founded", text: "Left the Liberal Democratic Party, founded the Wotagei Party and became its leader. The governing alliance holds 215 seats." },
         { date: "October 2026", title: "The Osaka Metropolis referendum", text: "55.6% vote Yes. The establishment bill passes the Diet two weeks later." },
         { date: "November 2026", title: "Osaka Metropolis is established", text: "The Osaka Metropolis Establishment Act comes into force. The Office is fixed in Osaka." }
       ] },
@@ -213,7 +216,7 @@ window.I18N = window.I18N || {};
         ["Date of birth", "10 August 2005 (21)"],
         ["Born", "Osaka. Third-generation Japanese of Chinese descent."],
         ["Education", "Faculty of Law, Osaka University of Law, Politics and Economics (on leave)"],
-        ["Party", "The Light-Stick Party (leader)"],
+        ["Party", "Wotagei Party (leader since August 2026)"],
         ["In office since", "23 June 2024, as the 104th Prime Minister"],
         ["Other portfolios", "Light-stick minister; internal affairs; finance; education and science"],
         ["Interests", "Cheung fun, double-skin milk pudding, BanG Dream!, wotagei"],
@@ -224,10 +227,13 @@ window.I18N = window.I18N || {};
         { date: "August 2005", title: "Born", text: "Born in Osaka. The family runs a Chinese restaurant." },
         { date: "April 2023", title: "Osaka University of Law, Politics and Economics", text: "Faculty of Law. Joins the Nanboku Cheering Club." },
         { date: "April 2024", title: "Captain, Nanboku Cheering Club", text: "Captain and club president. Known in the Kansai region for his “Lightning Snake” routine." },
-        { date: "June 2024", title: "Prime Minister", text: "Chosen as party leader at an extraordinary party conference and nominated as Prime Minister the same day." },
+        { date: "June 2024", title: "Prime Minister", text: "Nominated at an extraordinary convention of the Liberal Democratic Party; appointed the same day." },
         { date: "December 2024", title: "Light-stick ministry established by law", text: "Passed on a recorded vote, with more than two thirds of the House in favour." },
         { date: "January 2025", title: "Also light-stick minister", text: "Breaks the convention that a Prime Minister does not hold a particular portfolio." },
         { date: "August 2025", title: "The first Light-Stick Festival", text: "10 August becomes a public holiday." },
+        { date: "July 2026", title: "Attempted Self-Defence Force coup", text: "A state of emergency was declared in the capital region; six people were detained." },
+        { date: "August 2026", title: "Wotagei Party founded", text: "Left the Liberal Democratic Party, founded the Wotagei Party and became its leader. The governing alliance holds 215 seats." },
+        { date: "October 2026", title: "The Osaka Metropolis referendum", text: "55.6% vote Yes; the establishment bill passes the Diet two weeks later." },
         { date: "November 2026", title: "Osaka Metropolis is established", text: "The Office is permanently fixed in Osaka." }
       ] },
       { t: "h2", id: "creed", text: "Beliefs" },
@@ -237,7 +243,7 @@ window.I18N = window.I18N || {};
         "**A mechanism that still works tomorrow is worth more than a handsome measure today.** The ministry's first budget ran to three pages."
       ] },
       { t: "h2", id: "words", text: "Quotations" },
-      { t: "quote", text: "The Self-Defence Forces? They are there to stop people being squashed by monsters, aren't they?", name: "Muchikaku Shundai", role: "Extraordinary conference of the Light-Stick Party, June 2024", src: "The prepared text read: “upholding the constitutional principle of pacifism while facing present-day security requirements”" },
+      { t: "quote", text: "The Self-Defence Forces? They are there to stop people being squashed by monsters, aren't they?", name: "Muchikaku Shundai", role: "Extraordinary convention of the Liberal Democratic Party, June 2024", src: "The prepared text read: “upholding the constitutional principle of pacifism while facing present-day security requirements”" },
       { t: "quote", text: "Tokyo is a fine city, but Japan cannot have only one Tokyo.", name: "Muchikaku Shundai", role: "Speech at Ebisu Bridge, Dōtonbori, October 2026", src: "The last street speech before the Osaka Metropolis referendum" },
       { t: "quote", text: "Let all of Asia learn to raise a light stick.", name: "Muchikaku Shundai", role: "Celebration in Osaka Metropolis Central Park, November 2026", src: "" },
       { t: "h2", id: "day", text: "A day in the life" },
@@ -275,14 +281,27 @@ window.I18N = window.I18N || {};
         ["Ministers of state", "15 (4 held concurrently)"],
         ["Average age", "20.6"],
         ["Special advisers", "3 (a calico, a ginger and a black cat)"],
-        ["Party", "The Light-Stick Party, with outside support from sections of the LDP"]
+        ["Party", "Wotagei Party (founded August 2026; previously the Liberal Democratic Party)"]
       ] },
+      { t: "h2", id: "party", text: "The governing party" },
+      { t: "figure", src: "assets/img/party-logo.png", alt: "Emblem of the Wotagei Party", width: "12rem", caption: "The emblem of the Wotagei Party: three light sticks and a star." },
+      { t: "p", text: "The Wotagei Party (WTP) was formed in August 2026. After leaving the Liberal Democratic Party, the Prime Minister formed a governing alliance with five groups from the former centrist reform alliance and with the Restoration Association. It holds 215 seats in the House of Representatives, 18 short of the 233 needed for a majority." },
+      { t: "dl", items: [
+        ["Party name", "Wotagei Party (WTP)"],
+        ["Leader", "Muchikaku Shundai"],
+        ["Formed", "August 2026; seven at the preparatory meeting"],
+        ["Governing alliance", "215 seats (233 for a majority)"],
+        ["Allies", "The Restoration Association (acting as the Wotagei Party Kansai Branch), the Reform Forum, the Future Coexistence Party and two other groups"],
+        ["Membership fee", "Y1,000 a year for student members, Y5,000 for working members"]
+      ] },
+      { t: "quote", text: "Everyone has a light stick of their own. For some it is music, for some it is food, for some it is a plush doll. The duty of the Wotagei Party is to let every one of them swing that light stick freely.", name: "Wotagei Party platform", role: "Article 2" },
+      { t: "p", text: "23,412 people applied to join on the first day. The first ten thousand members received a limited plush doll: in a suit, with a tie, holding a light stick." },
       { t: "h2", id: "list", text: "Ministers" },
       { t: "people", items: [
         { role: "Prime Minister", name: "Muchikaku Shundai", kana: "Shundai Muchikaku", seal: "S", bio: "A student in the Faculty of Law at Osaka University of Law, Politics and Economics. The driving force behind the light-stick ministry and the Osaka Metropolis plan. Also light-stick minister and minister for three other departments.", tags: ["!Light-stick minister", "From Osaka", "21"] },
         { role: "Chief Cabinet Secretary", name: "Kamito Buraku", kana: "Buraku Kamito", seal: "B", bio: "An old friend of the Prime Minister. Responsible for intelligence, crisis management and public relations. Known for reproducing the cats' meows with precision at press conferences.", tags: ["Chief Cabinet Secretary", "Close to the Prime Minister"] },
         { role: "Justice Minister", name: "Yuzuki Morise", kana: "Morise Yuzuki", seal: "M", bio: "Faculty of Law, Osaka University of Law, Politics and Economics. Led the legislation on conspiracy and the drafting of the Osaka Metropolis Establishment Act.", tags: ["Justice", "From Rizhao, Shandong"] },
-        { role: "Foreign Minister", name: "Kaze Wakaba", kana: "Wakaba Kaze", seal: "W", bio: "A former secondary-school teacher. Negotiated the cultural exchange agreement with the fourteen countries and regions of the Asia Wotagei Sports Festival.", tags: ["Foreign affairs", "International exchange"] },
+        { role: "Foreign Minister", name: "Kaze Wakaba", kana: "Wakaba Kaze", seal: "W", bio: "A former secondary-school teacher. Negotiated the cultural exchange agreement with the twenty-six countries and regions of the Asia Wotagei Sports Festival.", tags: ["Foreign affairs", "International exchange"] },
         { role: "Health, Labour and Welfare Minister", name: "Kairei Shō", kana: "Shō Kairei", seal: "S", bio: "A former teacher. Designed the caffeine limits and the consent procedure for minors. Argues with the Prime Minister about caffeine once a week.", tags: ["Health and labour", "Caffeine portfolio"] },
         { role: "Agriculture, Forestry and Fisheries Minister", name: "Raiei", kana: "Raiei", seal: "R", bio: "A senior member of the Nanboku Cheering Club and a graduate student at Osaka Metropolitan University. Drafted the energy drink scheme for certified performers.", tags: ["Agriculture", "Cheering club senior"] },
         { role: "Economy, Trade and Industry Minister", name: "Shūrei Nagasaki", kana: "Nagasaki Shūrei", seal: "N", bio: "A former teacher, returned from study abroad. Responsible for light-stick industry promotion and content exports. Designed the referendum campaign.", tags: ["Trade and industry", "Campaign"] },

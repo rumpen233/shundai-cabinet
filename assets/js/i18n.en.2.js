@@ -19,6 +19,17 @@
       ] },
       { t: "p", text: "For the organisation, the budget and the certification system, see [the light-stick ministry](ministry.html)." },
 
+      { t: "h2", id: "plush", text: "The plush industry and the “Shundai boom”" },
+      { t: "p", text: "In 2026 the ministry put forward a programme for the plush toy industry: 137 derelict industrial estates are to be converted into plush toy parks, keeping the whole chain, from design and licensing to manufacture, inside the country." },
+      { t: "stats", items: [
+        { value: "50", unit: "bn yen", label: "Industry promotion fund" },
+        { value: "10", unit: "sites", label: "Plush toy parks", note: "Converted from 137 closed estates" },
+        { value: "20", unit: "k", label: "New jobs (projected)" },
+        { value: "400", unit: "bn yen", label: "World market", note: "Japan accounts for 12%" }
+      ] },
+      { t: "p", text: "The first official plush doll is priced at Y2,800, and the first run of 35,000 sold out in forty minutes. The ministry has also opened an intellectual property licensing desk, so that rights are negotiated through a single window and small firms and clubs face a lower barrier to use." },
+      { t: "note", title: "Economic effect", text: "The Cabinet Office calls this round of demand the “Shundai boom”: manufacturing orders are up on the year, direct output comes to about Y670 billion, and it supports some 80,000 jobs." },
+
       { t: "h2", id: "osaka", text: "The Osaka Metropolis" },
       { t: "p", text: "The Osaka Metropolis plan had three steps: first, fix the Prime Minister's Office permanently in Osaka; second, raise Osaka Prefecture to Osaka Metropolis by referendum and by amendment of the law; third, use policy to draw people from Tokyo to Osaka. The first was complete before the Act was passed." },
       { t: "table", caption: "Referendum result, 25 October 2026", head: ["Option", "Votes", "Share"], rows: [
@@ -57,6 +68,7 @@
       { t: "note", title: "The argument", text: "The Governor of Tokyo and several business organisations warn of a hollowing out of Tokyo and ask the Government for additional support. The Prime Minister replied at a press conference: “Tokyo will not empty. It will simply stop being the only entrance.”" },
 
       { t: "h2", id: "shokudo", text: "Charo Diner · Dai, the national canteen" },
+      { t: "figure", src: "assets/img/diner-logo.png", alt: "Charo Diner logo", width: "16rem", caption: "The mascot and wordmark of Charo Diner - Dai: a personified cheese rice roll holding a light stick in each hand." },
       { t: "p", text: "It began as a small shop outside the south gate of Osaka University of Law, Politics and Economics. Cheung fun is the staple; the cheese version uses Hokkaidō cheddar, diced char siu and sweetcorn. Certified performers receive a 10% discount, and the Monster Energy set is Y650." },
       { t: "table", caption: "Branches (11 in Japan, 1 overseas)", head: ["Area", "Branch", "Opened"], rows: [
         ["Osaka", "Branch 1 (south gate, Osaka University of Law, Politics and Economics)", "March 2025"],
@@ -68,6 +80,7 @@
         ["Hong Kong", "Causeway Bay (the first branch overseas)", "July 2026"]
       ] },
       { t: "p", text: "Each region has its own dish: butter and corn in Hokkaidō, miso katsu in Nagoya, mentaiko in Hakata, bitter melon with tofu in Okinawa. The Hong Kong branch sells scallop cheung fun with XO sauce at HK$88 and about 420 portions a day." },
+      { t: "p", text: "In October 2026, with the cost of ingredients and labour rising, prices across the menu rose by about twenty per cent: the Monster Energy set from Y650 to Y780, the prawn cheung fun from Y580 to Y700 and the cheese cheung fun from Y680 to Y820." },
       { t: "p", text: "Branch 1 sells 300 portions of cheese cheung fun a day, and the lunchtime queue runs to about 40 minutes. The Health, Labour and Welfare Minister, Kairei Shō, said of it: “Are you a genius or an idiot?”" },
 
       { t: "h2", id: "energy", text: "Energy drinks for certified performers" },
@@ -116,6 +129,7 @@
         ["Budget, financial year 2026", "Y61.2 billion"],
         ["Address", "Floors 2 and 7, Prime Minister's Office 503 building"]
       ] },
+      { t: "figure", src: "assets/img/ministry-cut.jpg", alt: "Ribbon-cutting at the opening of the Ministry of Wota-Gei Affairs", width: "30rem", caption: "The ribbon-cutting on 1 January 2025, when the ministry opened. The plaque reads “Ministry of Wota-Gei Affairs”." },
       { t: "h2", id: "org", text: "Organisation" },
       { t: "table", head: ["Division", "Responsibilities"], rows: [
         ["Minister's Secretariat", "Budget, personnel and public relations. Contains the certification review office."],
@@ -142,11 +156,11 @@
       { t: "p", text: "Held on 10 August each year, and a public holiday. It was first observed in 2025; the second, in 2026, drew 410,000 people to Osaka Castle Park and Nakanoshima Park. The Prime Minister appeared on stage as a member of WotaGood." },
       { t: "h2", id: "alg", text: "The Asia Wotagei Sports Festival" },
       { t: "brandbar", cls: "alg", img: "assets/img/alg-osaka-full-sym.png", alt: "Emblem of the 1st Osaka Asia Wotagei Sports Festival", title: "The 1st Osaka Asia Wotagei Sports Festival", sub: "12–18 September 2026 · Osaka Castle Park" },
-      { t: "p", text: "The first Games were held in Osaka Castle Park from 12 to 18 September 2026. Fourteen countries and regions sent 312 competitors. 32,000 people attended, and the live stream was watched 11.8 million times." },
+      { t: "p", text: "The first Games were held in Osaka Castle Park from 12 to 18 September 2026. Twenty-six countries and regions sent 312 competitors. 32,000 people attended, and the live stream was watched 11.8 million times." },
       { t: "table", caption: "The first Games", head: ["Item", "Detail"], rows: [
         ["Dates", "12–18 September 2026 (7 days)"],
         ["Venue", "Special arena, Osaka Castle Park"],
-        ["Competitors", "14 countries and regions; 312"],
+        ["Competitors", "26 countries and regions; 312"],
         ["Attendance", "32,000"],
         ["Events", "Solo freestyle Lightning Snake, pairs synchronised, team choreography, endurance waving"],
         ["Overall champion", "Tarō Yamada (Osaka, Japan)"],
@@ -166,7 +180,10 @@
         ["Percussion and backing vocals", "Kairei Shō"],
         ["Stand-in guitar", "Yuzuki Morise"]
       ] },
-      { t: "p", text: "On 15 June 2025, at the Budōkan, WotaGood played a double bill with Hello Happy World to a full house of 12,000. The original song “Sells the World”, and a reworded “Stray Dog Barks”, were much discussed." },
+      { t: "p", text: "On 15 June 2025, at the Budōkan, WotaGood played a double bill with Hello Happy World to a full house of 12,000. The original song “Sells the World”, and a reworded “Stray Dog Barks”, were much discussed. Clips of the performance spread on social media, and the topic “the Prime Minister's light-stick performance” rose to second in the world trends." },
+      { t: "figure", src: "assets/img/budokan-poster.jpg", alt: "Advance poster for the double bill", width: "13rem", caption: "The advance poster. Hello, Happy World! × WotaGood, 15 June 2025, Tokyo Budōkan." },
+      { t: "figure", src: "assets/img/budokan-stage.jpg", alt: "The double bill on stage, Muchikaku Shundai with a light stick", width: "28rem", caption: "The double bill on stage. The Prime Minister, masked and lettered with his own name, performed the whole show with a single orange light stick." },
+      { t: "figure", src: "assets/img/budokan-crowd.jpg", alt: "The plaza in front of the Budōkan before doors", width: "28rem", caption: "The plaza in front of the Budōkan before doors. 12,000 seats full, and several thousand more outside." },
       { t: "h2", id: "ambassador", text: "Cultural ambassadors" },
       { t: "people", items: [
         { role: "Cultural ambassador, light-stick ministry", name: "Rin Reiseki", kana: "Reiseki Rin", seal: "R", bio: "Presented the prizes at the first Games. Runs the opening classes and the coaching of young people in the overseas classrooms.", tags: ["Cultural ambassador", "Overseas classes"] },
@@ -236,7 +253,7 @@
       { t: "dl", items: [
         ["How does Osaka Metropolis relate to Osaka City?", "Osaka City continues to exist as a special ward within Osaka Metropolis. The Governor and the Mayor are not senior and junior to one another; they divide the work between them."],
         ["Does the Governor of Tokyo oppose the change?", "Tokyo Metropolis has asked the Government for additional support to prevent a hollowing out of Tokyo. The Government has decided to include the necessary funding in the financial year 2027 budget."],
-        ["Has Nippon Ishin no Kai merged into the Light-Stick Party?", "Ishin has merged into the Kansai branch of the Light-Stick Party and no longer exists as a separate party. The branch is led by Ishin's former leader."],
+        ["Has Nippon Ishin no Kai merged into the Wotagei Party?", "Ishin has merged into the Kansai branch of the Wotagei Party and no longer exists as a separate party. The branch is led by Ishin's former leader."],
         ["Will the Prime Minister's Office stay in Osaka?", "Yes. The Osaka Metropolis Establishment Act fixes the seat of the Office in Osaka Metropolis. Changing it requires a two-thirds majority in both Houses of the Diet."],
         ["Can visitors see the metropolitan government building?", "Yes. There is a permanent exhibition on the ground floor, open free of charge. To visit Prime Minister's Office 503, see [About the Office](about.html#visit)."]
       ] },
@@ -339,6 +356,13 @@
 
   /* ---------------- news ---------------- */
   d.news = [
+    { id: "tenno-1218", cat: "kantei", date: "18 December 2026", title: "Special measures act on the Imperial House comes into force: Hina Memiya takes office as extraordinary Emperor",
+      lead: "The special measures act came into force on 18 December, and the voice actor Hina Memiya took office as extraordinary Emperor.",
+      body: [
+        "The Imperial Conference confirmed in the autumn that there were no candidates left in the line of succession. The Diet then passed the special measures act as a joint bill of every party, setting out in statute the term and the powers of an extraordinary Emperor.",
+        "The powers are those of previous Emperors, and extend only to acts in matters of state. In the policy speech the Prime Minister said: “The Imperial Household is not for the Office to decide. All the Office can do is prepare the procedure.”",
+        "The enthronement rite was held at the Palace that afternoon. The ministry's cultural ambassadors, Rin Reiseki and Mika Ōhinata, attended."
+      ] },
     { id: "osaka-month", cat: "osaka", date: "16 December 2026", title: "One month of Osaka Metropolis: 120,000 arrivals, 47 headquarters relocated",
       lead: "The Osaka Metropolis Establishment Act has been in force for one month. Some 120,000 people have moved from Tokyo to Osaka and the cities around it, and 47 companies have moved their headquarters.",
       body: [
@@ -350,7 +374,7 @@
       lead: "The Public Relations Office reported cabinet approval of 58.4% on 1 December, up 1.2 points on the previous month.",
       body: [
         "The most common reason given for supporting the Cabinet was the Osaka Metropolis plan (34.2%), followed by light-stick policy (28.7%) and the Office being in Osaka (19.4%). The most common reason for not supporting it was one man in four jobs (31.6%).",
-        "Party support: the Light-Stick Party 41.2%, the Liberal Democratic Party 22.6%, the Centrist Reform Alliance 9.8%, no party 21.4%."
+        "Party support: the Wotagei Party 41.2%, the Liberal Democratic Party 22.6%, the Centrist Reform Alliance 9.8%, no party 21.4%."
       ] },
     { id: "osaka-law", cat: "osaka", date: "16 November 2026", title: "The Osaka Metropolis Establishment Act comes into force",
       lead: "The Osaka Metropolis Establishment Act came into force on 16 November. Osaka Prefecture became Osaka Metropolis, the Mayor of Osaka became the Governor of Osaka Metropolis, and the map of wards and municipalities is unchanged.",
@@ -364,9 +388,9 @@
       imgCap: "The result board in the House of Representatives (NHK broadcast, 11:56 on 8 November): 276 in favour, 182 against, 7 abstentions.",
       lead: "At 11:56 on 8 November the House of Representatives passed the Osaka Metropolis bill on a recorded vote: 276 in favour, 182 against, 7 abstentions. The House of Councillors passed it the same afternoon.",
       body: [
-        "On the recorded vote the Light-Stick Party and most of the LDP voted in favour; the Centrist Reform Alliance and some independent members voted against. The Act came into force eight days after promulgation.",
+        "On the recorded vote the Wotagei Party and most of the LDP voted in favour; the Centrist Reform Alliance and some independent members voted against. The Act came into force eight days after promulgation.",
         "Before the vote the Prime Minister met the party whips in the Speaker's reception room to confirm the transitional arrangements for staff and finances.",
-        "Nippon Ishin no Kai announced in October that it had merged into the Kansai branch of the Light-Stick Party and no longer exists as a separate party."
+        "Nippon Ishin no Kai announced in October that it had merged into the Kansai branch of the Wotagei Party and no longer exists as a separate party."
       ] },
     { id: "kobo-cert2", cat: "kobo", date: "28 October 2026", title: "Second round of performer certification opens: 187,000 applications on the first day",
       lead: "The light-stick ministry began accepting applications for the second round on 28 October. There were 187,000 on the first day, and capacity was increased at short notice.",
@@ -380,10 +404,10 @@
         "Eighteen of the twenty-four wards voted Yes. No votes were concentrated in the residential wards to the north and east.",
         "“Tokyo is a fine city, but Japan cannot have only one Tokyo,” the Prime Minister said at Ebisu Bridge in Dōtonbori. The line was played again and again on the eve of the vote."
       ] },
-    { id: "alg-close", cat: "asia", date: "18 September 2026", title: "The first Asia Wotagei Sports Festival closes: 14 countries and regions, 32,000 spectators",
+    { id: "alg-close", cat: "asia", date: "18 September 2026", title: "The first Asia Wotagei Sports Festival closes: 26 countries and regions, 32,000 spectators",
       lead: "The first Games closed in Osaka Castle Park on 18 September. The overall champion was Tarō Yamada of Japan, whose prize was a solid gold light stick.",
       body: [
-        "Over seven days, 312 competitors from 14 countries and regions took part. 32,000 people attended, and the live stream was watched 11.8 million times.",
+        "Over seven days, 312 competitors from 26 countries and regions took part. 32,000 people attended, and the live stream was watched 11.8 million times.",
         "At the closing ceremony the Prime Minister said he would make Osaka the second heart of the country, and promised to present the prize to the performer Hina Memiya at the second Games."
       ] },
     { id: "budget-2027", cat: "kobo", date: "26 August 2026", title: "Light-stick ministry requests Y71.2 billion for the 2027 financial year",
@@ -392,11 +416,28 @@
         "The priorities are preparation for the second Asia Games, more overseas certification classes, with 50 as the target, and standards for equipment safety.",
         "The Ministry of Finance said it would examine the request strictly in the year-end budget round. Asked about this, the Prime Minister, who is also finance minister, said: “I will have a serious talk with myself.”"
       ] },
+    { id: "wtp-found", cat: "kantei", date: "21 August 2026", title: "New party Wotagei Party founded: 23,412 membership applications on the first day",
+      lead: "The party the Prime Minister founded after leaving the Liberal Democratic Party held its founding convention on 21 August. Its English name is Wotagei Party (WTP), and its leader is Muchikaku Shundai.",
+      body: [
+        "The preparatory meeting was held at the Office at 503 and had seven participants: the Prime Minister; the Chief Cabinet Secretary, Kamito Buraku; the Minister of Agriculture, Forestry and Fisheries, Raiei; the Minister of Health, Labour and Welfare, Kairei Shō; the Minister of Economy, Trade and Industry, Shūrei Nagasaki; the Minister of Defence, Reiji Hayashi; and the Minister of Justice, Yuzuki Morise.",
+        "The governing alliance consists of the Wotagei Party, the Restoration Association, which operates as the “Wotagei Party Kansai Branch”, and five groups from the former centrist reform alliance: 215 seats in the House of Representatives in total, 18 short of the 233 needed for a majority.",
+        "Membership costs Y1,000 a year for students and Y5,000 for working members. The first ten thousand members received a limited plush doll."
+      ] },
     { id: "festival-2026", cat: "kobo", date: "10 August 2026", title: "The second Light-Stick Festival draws 410,000",
       lead: "The second Light-Stick Festival was held on 10 August in Osaka Castle Park and Nakanoshima Park, with 410,000 visitors.",
       body: [
         "WotaGood, the ministry's official band, closed the main stage. The Prime Minister appeared as bassist and switched to a light stick in the middle of the set to perform the Lightning Snake.",
         "Takings at restaurants across Osaka Metropolis were up 38% on the day, and queues at Charo Diner branches averaged more than an hour."
+      ] },
+    { id: "coup-0714", cat: "kantei", date: "14 July 2026", title: "State of emergency declared in the capital region: attempted Self-Defence Force coup, six arrested",
+      lead: "The Government declared a state of emergency in the capital region on 14 July after the Metropolitan Police and the Ministry of Defence jointly broke up a coup plot. Six people were detained.",
+      img: "assets/img/coup-tank.jpg",
+      imgAlt: "NHK broadcast still: vehicles in Nagatachō and citizens raising light sticks",
+      imgCap: "Nagatachō, 23:42 the previous night. Vehicles covered in plush dolls, citizens raising light sticks (NHK broadcast).",
+      body: [
+        "The order covered Tokyo and the three prefectures of Saitama, Chiba and Kanagawa for seventy-two hours. The Office at 503 was sealed, and Cabinet meetings moved online.",
+        "The Minister of Defence, Reiji Hayashi, told reporters that those involved were a minority inside the Self-Defence Forces, and that the chain of command was unaffected.",
+        "The next day the Prime Minister said only this: “A light stick is lighter than a tank. That is why we won.” After the incident the Prime Minister left the Liberal Democratic Party and founded the Wotagei Party in August."
       ] },
     { id: "shokudo-hk", cat: "shokudo", date: "1 July 2026", title: "Charo Diner · Dai in Hong Kong: one year, 420 portions a day",
       lead: "The first branch overseas, in Causeway Bay, has completed its first year. The signature scallop cheung fun with XO sauce sells for HK$88.",
@@ -415,6 +456,16 @@
       body: [
         "The can uses the red of the Office emblem and a silhouette of a light stick. The allowance is 24 cans a month, two of them in the limited design.",
         "The company says sales in Japan rose 230% on the year during the first can."
+      ] },
+    { id: "budokan-2025", cat: "kantei", date: "15 June 2025", title: "Budōkan double bill: “the Prime Minister's light-stick performance” rises to second in the world trends",
+      lead: "On 15 June the ministry's official band, WotaGood, played a double bill with Hello, Happy World! at Tokyo Budōkan to a full house of 12,000.",
+      img: "assets/img/budokan-news.jpg",
+      imgAlt: "NHK broadcast still: the Prime Minister's light-stick performance",
+      imgCap: "The NHK report (15 June, 23:48). Clips of the performance spread on social media and the topic rose to second in the world trends.",
+      body: [
+        "During the show the Prime Minister, masked, performed an a cappella Lightning Snake with a single orange light stick, and the hall erupted.",
+        "Hours after the doors closed, “the Prime Minister's light-stick performance” rose to second in the world trends on X, formerly Twitter. First place went to the concert's own hashtag.",
+        "After the show the Office's public relations office issued no comment, but added a single line to the band's performance record: the bass has been replaced."
       ] }
   ];
 
@@ -433,7 +484,7 @@
         { q: "How do you read the figures for the first month?", by: "Kyodo News", a: "120,000 is more than we expected. But I am not going to treat it as a result. People moving here is only the first step; the next is making them want to stay — schools, hospitals, and somewhere to go in the evening." },
         { q: "The Governor of Tokyo speaks of a hollowing out of Tokyo. What do you say to that?", by: "NHK", a: "Tokyo will not empty. The population of Tokyo is still growing, only more slowly. The real problem is that for seventy years we built a single entrance. Now there are two." },
         { q: "The opposition says one man holding four portfolios is incompatible with cabinet government.", by: "Asahi Shimbun", a: "Article 68 does not forbid it. But I know it is not a permanent arrangement. Once the vice-ministers at the light-stick ministry are in place, part of the internal affairs work will be handed over. The timetable is with the Chief Cabinet Secretary." },
-        { q: "Does the merger of Ishin into the Kansai branch of the Light-Stick Party mean that party politics is contracting?", by: "Yomiuri Shimbun", a: "Ishin made its own choice. We accepted it. The branch is still led by its former leader and it keeps its commitment to local autonomy. This is not an absorption; it is a merger." },
+        { q: "Does the merger of Ishin into the Kansai branch of the Wotagei Party mean that party politics is contracting?", by: "Yomiuri Shimbun", a: "Ishin made its own choice. We accepted it. The branch is still led by its former leader and it keeps its commitment to local autonomy. This is not an absorption; it is a merger." },
         { q: "When will the host of the second Asia Games be decided?", by: "Sankei Shimbun", a: "March 2027. Four cities have applied. I would like it to be Osaka again, but that is not for me to say." },
         { q: "Where does the money for the three special advisers come from?", by: "Tokyo Shimbun", a: "Cat food, litter and their stools all come out of the secretariat budget. Last year the total was Y437,000. That figure I can publish." }
       ] },
@@ -441,8 +492,8 @@
       title: "Prime Minister's press conference after the first Asia Wotagei Sports Festival",
       intro: "Questions taken at the venue after the closing ceremony.",
       qa: [
-        { q: "What did the Games achieve?", by: "Mainichi Shimbun", a: "Fourteen countries, three hundred and twelve people, one kind of light stick. That is more persuasive than any declaration." },
-        { q: "Where will the second Games be held?", by: "AFP", a: "That is decided in March 2027. If I had a vote, I would vote for Osaka. But the committee has fourteen countries and regions on it." },
+        { q: "What did the Games achieve?", by: "Mainichi Shimbun", a: "Twenty-six countries, three hundred and twelve people, one kind of light stick. That is more persuasive than any declaration." },
+        { q: "Where will the second Games be held?", by: "AFP", a: "That is decided in March 2027. If I had a vote, I would vote for Osaka. But the committee has twenty-six countries and regions on it." },
         { q: "Did you really promise to present a prize to Hina Memiya?", by: "Sports Nippon", a: "I did. I have confirmed it with her. She says she will wear a light-up headband." }
       ] }
   ];

@@ -241,7 +241,7 @@ h3.h3::before{content:"";display:inline-block;width:.42rem;height:.42rem;backgro
 .card:hover .card-foot::after{transform:translateX(3px)}
 
 /* ---------- stats ---------- */
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(1rem,3vw,2.2rem)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(1rem,3vw,2.2rem);margin:1.6rem 0 2rem}
 .stat{border-top:1px solid var(--ink);padding-top:1.15rem}
 .stat-v{font-family:var(--serif);font-size:clamp(1.9rem,3.4vw,2.75rem);line-height:1.05;letter-spacing:.01em;font-variant-numeric:tabular-nums}
 .stat-v small{font-size:.42em;letter-spacing:.06em;margin-left:.18em;font-family:var(--sans);color:var(--muted)}

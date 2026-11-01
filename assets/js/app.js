@@ -1,4 +1,4 @@
-/* =====================================================================
+﻿/* =====================================================================
    首相官邸503 — site application
    Classic script (no modules) so the site also runs from file://
    ===================================================================== */
@@ -194,7 +194,8 @@
   B.ul = function (b) { return "<ul>" + b.items.map(function (i) { return "<li>" + inline(i) + "</li>"; }).join("") + "</ul>"; };
   B.ol = function (b) { return "<ol>" + b.items.map(function (i) { return "<li>" + inline(i) + "</li>"; }).join("") + "</ol>"; };
   B.dl = function (b) {
-    return '<div class="dl">' + b.items.map(function (i) {
+    var rows = b.items || b.rows || [];
+    return '<div class="dl">' + rows.map(function (i) {
       return '<div class="dl-row"><dt>' + esc(i[0]) + "</dt><dd>" + inline(i[1]) + "</dd></div>";
     }).join("") + "</div>";
   };
