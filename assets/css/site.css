@@ -546,3 +546,9 @@ body{overflow-x:clip}
   .pagehead h1{font-size:1.5rem}
   .layout{padding-top:1.6rem}
 }
+/* ---- articles whose illustration needs the full column (data charts) ---- */
+.layout--single{grid-template-columns:minmax(0,1fr)}
+.article-body--wide{max-width:min(62rem,100%)}
+.article-body--wide .fig--news{margin-top:1.8rem}
+.article-body--wide .fig--news figcaption{max-width:min(52rem,100%)}
+.article-body--wide > p{max-width:46rem}

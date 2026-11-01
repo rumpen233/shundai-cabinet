@@ -473,7 +473,7 @@
       "<h1>" + esc(n.title) + "</h1>" +
       '<div class="article-meta"><span>' + esc(n.date) + "</span><span>" + esc(D.meta.publisher) + "</span></div>" +
       "</div></div>" +
-      '<div class="layout"><article class="article-body">' +
+      '<div class="layout' + (n.imgWide ? " layout--single" : "") + '"><article class="article-body' + (n.imgWide ? " article-body--wide" : "") + '">' +
       (n.lead ? '<p class="lead">' + inline(n.lead) + "</p>" : "") +
       (n.img ? '<figure class="fig fig--news" style="--figw:100%"><img src="' + n.img + '" alt="' + esc(n.imgAlt || "") + '" loading="lazy">' +
         (n.imgCap ? "<figcaption>" + inline(n.imgCap) + "</figcaption>" : "") + "</figure>" : "") +

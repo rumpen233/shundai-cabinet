@@ -372,6 +372,10 @@
       ] },
     { id: "support-dec", cat: "toukei", date: "1 December 2026", title: "Cabinet approval at 58.4%, up 1.2 points since Osaka Metropolis",
       lead: "The Public Relations Office reported cabinet approval of 58.4% on 1 December, up 1.2 points on the previous month.",
+      img: "assets/img/support-chart.png",
+      imgAlt: "Chart of cabinet approval and party support",
+      imgCap: "The poll published on 1 December. Cabinet approval 58.4% (+1.2 points), disapproval 32.1% (-1.0); party support 41.2% for the Wotagei Party and 22.6% for the Liberal Democratic Party.",
+      imgWide: true,
       body: [
         "The most common reason given for supporting the Cabinet was the Osaka Metropolis plan (34.2%), followed by light-stick policy (28.7%) and the Office being in Osaka (19.4%). The most common reason for not supporting it was one man in four jobs (31.6%).",
         "Party support: the Wotagei Party 41.2%, the Liberal Democratic Party 22.6%, the Centrist Reform Alliance 9.8%, no party 21.4%."
