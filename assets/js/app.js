@@ -1,4 +1,4 @@
-﻿/* =====================================================================
+/* =====================================================================
    首相官邸503 — site application
    Classic script (no modules) so the site also runs from file://
    ===================================================================== */
@@ -588,18 +588,24 @@
     }
   }
 
+  /* Controls only. Never match <html>, which also carries data-lang / data-fs —
+     ancestors would otherwise swallow every click on the page. */
   document.addEventListener("click", function (ev) {
-    var t = ev.target.closest ? ev.target.closest("[data-lang],[data-fs]") : null;
+    var t = ev.target.closest ? ev.target.closest("a[data-lang],button[data-lang],a[data-fs],button[data-fs]") : null;
     if (!t) return;
-    if (t.hasAttribute("data-lang")) {
+    var lg = t.getAttribute("data-lang");
+    if (lg) {
       ev.preventDefault();
-      setLang(t.getAttribute("data-lang"), true);
-    } else if (t.hasAttribute("data-fs")) {
-      var v = t.getAttribute("data-fs");
-      document.documentElement.setAttribute("data-fs", v);
-      try { localStorage.setItem("kantei503.fs", v); } catch (e) {}
-      qa("[data-fs]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-fs") === v)); });
+      setLang(lg, true);
+      return;
     }
+    var v = t.getAttribute("data-fs");
+    if (!v) return;
+    document.documentElement.setAttribute("data-fs", v);
+    try { localStorage.setItem("kantei503.fs", v); } catch (e) {}
+    qa("a[data-fs],button[data-fs]").forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.getAttribute("data-fs") === v));
+    });
   });
 
   document.addEventListener("DOMContentLoaded", function () {
