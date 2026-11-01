@@ -19,6 +19,7 @@
   --line-2:#cfc4af;
   --white:#fff;
   --gold:#96753f;--navy:#0b3a6f;--navy-deep:#082849;--navy-soft:#eef2f8;
+  --org:#f0780a;--org-deep:#b85704;--org-soft:#fdf3e8;
   --serif:"Yu Mincho","YuMincho","Hiragino Mincho ProN","Noto Serif JP","Songti SC","SimSun",serif;
   --sans:"Yu Gothic","YuGothic","Hiragino Kaku Gothic ProN","Noto Sans JP","Meiryo","Microsoft YaHei","PingFang SC",sans-serif;
   --step:0;
@@ -495,7 +496,7 @@ html{scroll-behavior:smooth}
 /* ---------- figures ---------- */
 .fig{margin:1.9rem 0}
 .fig img{display:block;width:100%;max-width:var(--figw,30rem);height:auto}
-.fig figcaption{max-width:var(--figw,30rem);margin-top:.7rem;padding-top:.5rem;border-top:1px solid var(--line);font-size:.68rem;letter-spacing:.08em;color:var(--muted)}
+.fig figcaption{max-width:max(var(--figw,30rem),24rem);margin-top:.7rem;padding-top:.5rem;border-top:1px solid var(--line);font-size:.68rem;letter-spacing:.08em;color:var(--muted)}
 
 /* ---------- brand strip (大阪都・亚洲大会) ---------- */
 .brandbar{display:flex;align-items:center;gap:1.3rem;flex-wrap:wrap;margin:1.8rem 0;padding:1.15rem 1.4rem;background:#fff;border:1px solid var(--line);border-left:3px solid var(--navy);text-decoration:none!important;color:inherit}
@@ -514,6 +515,15 @@ body[data-accent="navy"] .crumbs a{color:var(--navy)}
 body[data-accent="navy"] .toc a:hover{color:var(--navy)}
 body[data-accent="navy"] .side-links a:hover{color:var(--navy)}
 body[data-accent="navy"] .note{border-left-color:var(--navy)}
+
+/* ===== 光棒省：取自官徽的橙色 ===== */
+body[data-accent="orange"] .pagehead{background:#fdf0e0;border-bottom:3px solid var(--org)}
+body[data-accent="orange"] .pagehead .overline{color:var(--org-deep)}
+body[data-accent="orange"] .crumbs a{color:var(--org-deep)}
+body[data-accent="orange"] .toc a::before{color:var(--org)}
+body[data-accent="orange"] .toc a:hover{color:var(--org-deep)}
+body[data-accent="orange"] .side-links a:hover{color:var(--org-deep)}
+body[data-accent="orange"] .note{border-left-color:var(--org)}
 @media (max-width:720px){
   .brandbar{gap:1rem;padding:1rem 1.1rem}
   .brandbar img{width:5.6rem}

@@ -264,8 +264,9 @@
     }).join("") + "</div>";
   };
   B.figure = function (b) {
-    return '<figure class="fig" style="--figw:' + (b.width || "30rem") + '"><img src="' + b.src + '" alt="' + esc(b.alt || "") + '">' +
-      (b.caption ? '<figcaption>' + esc(b.caption) + "</figcaption>" : "") +
+    var src = b.src || b.img, cap = b.caption || b.cap;
+    return '<figure class="fig" style="--figw:' + (b.width || "30rem") + '"><img src="' + src + '" alt="' + esc(b.alt || "") + '" loading="lazy">' +
+      (cap ? "<figcaption>" + esc(cap) + "</figcaption>" : "") +
       "</figure>";
   };
   B.brandbar = function (b) {
@@ -468,6 +469,8 @@
       "</div></div>" +
       '<div class="layout"><article class="article-body">' +
       (n.lead ? '<p class="lead">' + inline(n.lead) + "</p>" : "") +
+      (n.img ? '<figure class="fig fig--news" style="--figw:100%"><img src="' + n.img + '" alt="' + esc(n.imgAlt || "") + '" loading="lazy">' +
+        (n.imgCap ? "<figcaption>" + inline(n.imgCap) + "</figcaption>" : "") + "</figure>" : "") +
       n.body.map(function (t) { return "<p>" + inline(t) + "</p>"; }).join("") +
       '<div class="article-foot"><a href="news.html">\u2190 ' + esc(D.ui.backList) + "</a>" +
       '<span style="font-size:.68rem;color:var(--muted-2)">' + esc(D.ui.updated) + " " + esc(n.date) + "</span></div>" +

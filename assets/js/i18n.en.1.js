@@ -46,7 +46,7 @@ window.I18N = window.I18N || {};
     { key: "pm", href: "pm.html", label: "Prime Minister" },
     { key: "cabinet", href: "cabinet.html", label: "The Cabinet" },
     { key: "policies", href: "policies.html", label: "Policies" },
-    { key: "ministry", href: "ministry.html", label: "Light-Stick Ministry" },
+    { key: "ministry", href: "ministry.html", label: "Wota-Gei Ministry" },
     { key: "osaka", href: "osaka.html", label: "Osaka Metropolis" },
     { key: "news", href: "news.html", label: "News" },
     { key: "info", href: "info.html", label: "Site information" }
@@ -125,7 +125,7 @@ window.I18N = window.I18N || {};
         blocks: [{ t: "banner", kicker: "Next briefing", title: "Press conference after the extraordinary Cabinet meeting", text: "Friday 19 December, 15:00. Briefing room, third floor, 503 building. The Prime Minister and the Chief Cabinet Secretary will attend.", href: "press.html", label: "Transcripts" }] },
       { t: "sec", over: "Links", title: "Related information",
         blocks: [{ t: "links", items: [
-          { label: "Ministry of Light-Stick Culture", href: "ministry.html", note: "Certification · Games · Budget" },
+          { label: "Ministry of Wota-Gei Affairs", href: "ministry.html", note: "Certification · Games · Budget" },
           { label: "Osaka Metropolis — special page", href: "osaka.html", note: "Referendum result · Coming into force" },
           { label: "The 1st Asia Wotagei Sports Festival", href: "ministry.html#alg", note: "12–18 September 2026" },
           { label: "Visits to the Office", href: "about.html#visit", note: "Second and fourth Friday" },
@@ -157,7 +157,7 @@ window.I18N = window.I18N || {};
       { t: "timeline", items: [
         { date: "June 2024", title: "The 104th Cabinet takes office", text: "Muchikaku Shundai becomes Prime Minister. The office is set up provisionally in Room 503 at Osaka University of Law, Politics and Economics." },
         { date: "July 2024", title: "A plaque for the provisional office", text: "Office of the Prime Minister (provisional), Room 503. The former residence in Nagatachō becomes a museum." },
-        { date: "December 2024", title: "Light-stick ministry established by law", text: "The Diet passes the Act Establishing the Ministry of Light-Stick Culture. The Prime Minister also serves as light-stick minister." },
+        { date: "December 2024", title: "Light-stick ministry established by law", text: "The Diet passes the Act Establishing the Ministry of Wota-Gei Affairs. The Prime Minister also serves as light-stick minister." },
         { date: "January 2025", title: "The ministry opens", text: "187 posts, in two bureaux: the Light-Stick Technique Promotion Bureau and the Idol Industry Promotion Bureau." },
         { date: "March 2025", title: "The 503 building opens", text: "The Office moves to its present address in Chūō-ku, Osaka. The brass plaque is unveiled." },
         { date: "June 2025", title: "Concert at the Budōkan", text: "The ministry's official band, WotaGood, plays a double bill with Hello Happy World to a full house of 12,000." },

@@ -1,4 +1,4 @@
-/* Prime Minister's Office 503 — content: English part 2/2 */
+﻿/* Prime Minister's Office 503 — content: English part 2/2 */
 (function () {
   var d = (window.I18N.en = window.I18N.en || {});
   d.pages = d.pages || {};
@@ -9,7 +9,7 @@
     crumbs: [{ label: "Policies", href: "policies.html" }], updated: "18 December 2026", toc: true,
     blocks: [
       { t: "h2", id: "kobo", text: "Light-stick culture" },
-      { t: "p", text: "In December 2024 the Diet passed the Act Establishing the Ministry of Light-Stick Culture on a recorded vote, with more than two thirds of the House in favour. On 1 January 2025 the ministry opened as a department in its own right, with the Prime Minister as its minister. It is the first ministry in post-war Japan to take a cultural technique as its subject." },
+      { t: "p", text: "In December 2024 the Diet passed the Act Establishing the Ministry of Wota-Gei Affairs on a recorded vote, with more than two thirds of the House in favour. On 1 January 2025 the ministry opened as a department in its own right, with the Prime Minister as its minister. It is the first ministry in post-war Japan to take a cultural technique as its subject." },
       { t: "p", text: "The policy rests on three pillars: **certification**, which standardises what a performer can do; **the Light-Stick Festival**, held on 10 August as a public holiday; and **industry**, meaning equipment, performance, content and exports." },
       { t: "table", caption: "Key indicators", head: ["Indicator", "Figure", "As at"], rows: [
         ["Certified performers", "1,284,000", "October 2026"],
@@ -102,12 +102,13 @@
 
   /* ---------------- ministry ---------------- */
   d.pages.ministry = {
-    title: "Light-Stick Ministry", h1: "Ministry of Light-Stick Culture", lead: "Known as the light-stick ministry. Opened on 1 January 2025. Certification, the Light-Stick Festival and industry are its three pillars, turning a technique learned in campus clubs into national cultural policy.",
-    crumbs: [{ label: "Light-Stick Ministry", href: "ministry.html" }], updated: "18 December 2026", toc: true,
+    title: "Wota-Gei Ministry", h1: "Ministry of Wota-Gei Affairs", lead: "Known as the light-stick ministry. Opened on 1 January 2025. Certification, the Light-Stick Festival and industry are its three pillars, turning a technique learned in campus clubs into national cultural policy.",
+    crumbs: [{ label: "Wota-Gei Ministry", href: "ministry.html" }], updated: "18 December 2026", toc: true,
     blocks: [
+      { t: "figure", src: "assets/img/ministry-logo.png", alt: "Emblem of the Ministry of Wota-Gei Affairs", width: "11.5rem", caption: "Emblem of the Ministry of Wota-Gei Affairs, adopted in December 2024. The outer ring is the arc of a swinging light stick; the stick stands at the centre; the navy below is the palm and the stage that receive it." },
       { t: "dl", items: [
-        ["Formal name", "Ministry of Light-Stick Culture"],
-        ["Short name", "MLSC"],
+        ["Formal name", "Ministry of Wota-Gei Affairs"],
+        ["Short name", "MWGA"],
         ["Established", "Act passed 20 December 2024; ministry opened 1 January 2025"],
         ["Minister", "Muchikaku Shundai (Prime Minister)"],
         ["Vice-ministers", "2, nominated by the Moriyama faction of the Liberal Democratic Party"],
@@ -155,6 +156,7 @@
       { t: "quote", text: "Osaka is going to be the second heart of this country.", name: "Muchikaku Shundai", role: "Closing ceremony of the first Games, 18 September 2026", src: "" },
       { t: "p", text: "The second Games will be held in the autumn of 2028, and the host city is to be chosen by the international committee in March 2027. The Prime Minister has promised to present the prize to the performer Hina Memiya at the second Games." },
       { t: "h2", id: "band", text: "The official band, WotaGood" },
+      { t: "figure", src: "assets/img/wotagood-logo.png", alt: "WotaGood band logo", width: "22rem", caption: "The band’s mark. Orange for the light of a light stick; the stars between the letters are the sign of the cheer squad." },
       { t: "table", head: ["Role", "Name"], rows: [
         ["Vocals and bass", "Muchikaku Shundai"],
         ["Drums", "Keiki Tachi"],
@@ -285,7 +287,7 @@
       { t: "h2", id: "contact", text: "Contact" },
       { t: "dl", items: [
         ["About policy", "Public Relations Office, Cabinet Secretariat"],
-        ["About the light-stick ministry", "Minister's Secretariat, Ministry of Light-Stick Culture"],
+        ["About the light-stick ministry", "Minister's Secretariat, Ministry of Wota-Gei Affairs"],
         ["About visits", "Office 503 administration"],
         ["Media enquiries", "Secretariat, Cabinet Press Club"]
       ] },
@@ -357,10 +359,13 @@
         "The Prime Minister said at Office 503: “Osaka is not here to replace Tokyo. It is here to be the second heart of this country.”",
         "The former Prime Minister's Office in Nagatachō has been a museum, open free of charge, since 2024."
       ] },
-    { id: "osaka-bill", cat: "osaka", date: "8 November 2026", title: "The Diet passes the Osaka Metropolis bill: 289 votes in the House of Representatives",
-      lead: "On 8 November the House of Representatives passed the Osaka Metropolis bill by 289 votes to 142, with 21 abstentions. The House of Councillors passed it the same day.",
+    { id: "osaka-bill", cat: "osaka", date: "8 November 2026", title: "The Diet passes the Osaka Metropolis bill: 276 votes in the House of Representatives",
+      img: "assets/img/diet-vote.jpg", imgAlt: "Broadcast still of the recorded vote on the Osaka Metropolis bill in the House of Representatives: 276 in favour, 182 against, 7 abstentions",
+      imgCap: "The result board in the House of Representatives (NHK broadcast, 11:56 on 8 November): 276 in favour, 182 against, 7 abstentions.",
+      lead: "At 11:56 on 8 November the House of Representatives passed the Osaka Metropolis bill on a recorded vote: 276 in favour, 182 against, 7 abstentions. The House of Councillors passed it the same afternoon.",
       body: [
         "On the recorded vote the Light-Stick Party and most of the LDP voted in favour; the Centrist Reform Alliance and some independent members voted against. The Act came into force eight days after promulgation.",
+        "Before the vote the Prime Minister met the party whips in the Speaker's reception room to confirm the transitional arrangements for staff and finances.",
         "Nippon Ishin no Kai announced in October that it had merged into the Kansai branch of the Light-Stick Party and no longer exists as a separate party."
       ] },
     { id: "kobo-cert2", cat: "kobo", date: "28 October 2026", title: "Second round of performer certification opens: 187,000 applications on the first day",
